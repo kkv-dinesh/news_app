@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 import pandas as pd
 
-NEWS_API_KEY = '5ec52e37ff9940e2a674d64ac7a09b94'
+NEWS_API_KEY = 'ADD YOUR API HERE' 
 
 @st.cache_data(ttl=3600)  # Cache data for 1 hour
 def fetch_headlines():
